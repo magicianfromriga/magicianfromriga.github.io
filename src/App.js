@@ -1,4 +1,4 @@
-import logo from '../assets/blueHorse.svg';
+import logo from './assets/blueHorse.jpg';
 import './App.css';
 
 function App() {
