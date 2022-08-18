@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/portfolio.css"
 import Navbar from "./navbar";
-import logo from '../assets/blueHorse.jpg';
+import logo from '../assets/portfolio.jpg';
 const Portfolio = () => {
 return(
     <div className="App">

@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/bio.css"
 import Navbar from "./navbar";
-import logo from '../assets/blueHorse.jpg';
+import logo from '../assets/contact.jpg';
 const Contact = () => {
 return(
     <div className="App">

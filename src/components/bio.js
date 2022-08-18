@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../assets/blueHorse.jpg';
+import logo from '../assets/bio.jpg';
 import "../styles/bio.css"
 import Navbar from "./navbar";
 const Biography = () => {

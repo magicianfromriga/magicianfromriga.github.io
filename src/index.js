@@ -11,7 +11,7 @@ import Contact from './components/contact';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const routes = (
   <BrowserRouter>
-    <div>
+    <div className='mainPage'>
       <Routes>
         <Route exact path="/" element={<App/>} />
         <Route path="/bio" element={<Biography/>}/>
