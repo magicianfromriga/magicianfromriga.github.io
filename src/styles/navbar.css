@@ -12,3 +12,6 @@
 .dashboardHeader{
     font-size: max(1vw, 18px) !important;
 }
+.navBarMain{
+    width: 100%;
+}

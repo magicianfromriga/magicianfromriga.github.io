@@ -9,7 +9,7 @@ const pages = ["Home", "Bio", "Portfolio", "Contact"];
 const Navbar = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="navBarMain">
       <AppBar position="static">
         <Toolbar style={{ display: "flex", justifyContent: "space-between" }}>
           <div>

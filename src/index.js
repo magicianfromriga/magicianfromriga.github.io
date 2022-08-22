@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
+import Home from './components/home';
 import Biography from './components/bio';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
@@ -13,7 +13,7 @@ const routes = (
   <BrowserRouter>
     <div className='mainPage'>
       <Routes>
-        <Route exact path="/" element={<App/>} />
+        <Route exact path="/" element={<Home/>} />
         <Route path="/bio" element={<Biography/>}/>
         <Route path="/contact" element={<Contact/>} />
         <Route path="/portfolio" element={<Portfolio/>} />
