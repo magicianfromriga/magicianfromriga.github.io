@@ -1,0 +1,24 @@
+.Banner {
+    height: 500px;
+    background-image: url('https://raw.githubusercontent.com/magicianfromriga/magicianfromriga.github.io/main/src/assets/blueHorse.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Banner-profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  
+  .Banner-name {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Banner-tagline {
+    font-size: 1.5rem;
+  }

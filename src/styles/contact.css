@@ -1,40 +1,53 @@
-.App {
+.Contact {
+  padding: 2rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Contact form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Contact label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  width: 100%;
 }
 
-/* @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
+.Contact input,
+.Contact textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.25rem;
+}
 
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
+.Contact input:focus,
+.Contact textarea:focus {
+  outline: none;
+  box-shadow: 0 0 2px #666;
+}
 
-*/
+.Contact button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Contact button:hover {
+  background-color: #555;
+}

@@ -1,0 +1,55 @@
+.Projects {
+    margin-top: 2rem;
+  }
+
+  .Projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .Project {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  .Project-left {
+    flex-basis: 40%;
+  }
+  
+  .Project-left img {
+    max-width: 100%;
+  }
+  
+  .Project-right {
+    flex-basis: 60%;
+    padding-left: 2rem;
+  }
+  
+  .Project-right h3 {
+    margin-top: 0;
+  }
+  
+  .Project-right p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0.5rem 0 1.5rem;
+  }
+  
+  .Project-technologies {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Project-technologies span:first-child {
+    margin-right: 0.5rem;
+  }
+  
+  .Project-technologies span:not(:first-child) {
+    margin-left: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
